@@ -1,0 +1,12 @@
+{
+    "name": "playwright-skill",
+    "version": "1.0.0",
+    "description": "Browser automation skill for Antigravity",
+    "main": "run.js",
+    "scripts": {
+        "setup": "npm install playwright && npx playwright install chromium"
+    },
+    "dependencies": {
+        "playwright": "latest"
+    }
+}
